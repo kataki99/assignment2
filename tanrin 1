@@ -1,0 +1,8 @@
+import math
+while True:
+    d= input("to end type exit,if not press enter")
+    if d=="exit":
+        break
+    a = int(input("addad aval:"))
+    b = int(input("addad dovoom:"))
+    print(a + b)

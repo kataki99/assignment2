@@ -1,0 +1,7 @@
+import math
+a = int(input("tedad daneshjoo"))
+list=[]
+for i in range(a):
+    list.append(int(input("nomre")))
+
+print(math.fsum(list)/a)
